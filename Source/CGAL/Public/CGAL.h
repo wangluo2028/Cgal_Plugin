@@ -5,9 +5,10 @@
 
 
 
-class FCGALModule : public IModuleInterface
+class CGAL_API FCGALModule : public IModuleInterface
 {
 public:
+	static FCGALModule& Get();
 
 	/** IModuleInterface implementation */
 	virtual void StartupModule() override;
@@ -15,5 +16,8 @@ public:
 
 private:
 	/** Handle to the test dll we will load */
-	void*	LibraryHandle;
+	void*	LibgmpDllHandle;
+	void*	libmpfrDllHandle;
+private:
+	static FCGALModule * m_Singleton;
 };
