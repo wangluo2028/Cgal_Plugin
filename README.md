@@ -15,3 +15,6 @@ Installation Instructions:</br>
 -Be sure to include the 'CGAL' public dependency in your project's Build.CS file
 
 <i>Tutorial for setup your project with the plugin coming soon</i>
+
+source code here:
+https://github.com/armabon/UE4_CGAL
