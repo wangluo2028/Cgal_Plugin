@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
+	"Version": 2,
+	"VersionName": "2.0",
 	"FriendlyName": "CGAL",
 	"Description": "A simple plugin that integrates CGAL 4.9 to UE4. I am in no way affiliated with CGAL, and their library can be found for free at http://cgal.org/.  This plugin is made by the UE4 community, and does not mean that CGAL endorses UE4 in any way.",
 	"Category": "Computer Vision",
