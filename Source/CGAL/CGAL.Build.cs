@@ -72,11 +72,6 @@ public class CGAL : ModuleRules
                 PublicAdditionalLibraries.Add(Path.Combine("libCGAL-vc140-mt-gd-4.9.lib"));
                 PublicAdditionalLibraries.Add(Path.Combine("libCGAL_Core-vc140-mt-gd-4.9.lib"));
             }
-
-            //PublicDelayLoadDLLs.Add(Path.Combine(LibPath, "libgmp-10.dll"));
-            //PublicDelayLoadDLLs.Add(Path.Combine(LibPath, "libmpfr-4.dll"));
-            //RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(LibPath, "libgmp-10.dll")));
-            //RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(LibPath, "libmpfr-4.dll")));
         }
 
         Definitions.Add(string.Format("WITH_CGAL_BINDING={0}", isLibrarySupported ? 1 : 0));
