@@ -25,7 +25,7 @@ public class CGAL : ModuleRules
 
         // Startard Module Dependencies
         PublicDependencyModuleNames.AddRange(new string[] { "Core" });
-		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "Engine", "Slate", "SlateCore" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "Engine", "Slate", "SlateCore", "Projects" });
 
         // Start CGAL linking here!
         bool isLibrarySupported = false;
