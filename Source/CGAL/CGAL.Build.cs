@@ -75,5 +75,6 @@ public class CGAL : ModuleRules
         }
 
         Definitions.Add(string.Format("WITH_CGAL_BINDING={0}", isLibrarySupported ? 1 : 0));
+        UEBuildConfiguration.bForceEnableExceptions = true;
     }
 }
