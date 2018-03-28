@@ -15,6 +15,8 @@
 /INCREMENTAL:NO
 /ignore:4199
 /ignore:4099
+/DELAYLOAD:"D:\Job\DR\Plugins\CGAL_Plugin\ThirdParty\CGAL\libraries\Win64\libgmp-10.dll"
+/DELAYLOAD:"D:\Job\DR\Plugins\CGAL_Plugin\ThirdParty\CGAL\libraries\Win64\libmpfr-4.dll"
 /DELAYLOAD:"d3d12.dll"
 /LIBPATH:"D:\Job\DR\Plugins\CGAL_Plugin\ThirdParty\CGAL\libraries\Win64"
 /NODEFAULTLIB:"LIBCMT"
@@ -62,6 +64,7 @@
 "D:\UnrealEngine-VXGI-4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
 "D:\UnrealEngine-VXGI-4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Slate.lib"
 "D:\UnrealEngine-VXGI-4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlateCore.lib"
+"D:\UnrealEngine-VXGI-4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Projects.lib"
 "D:\UnrealEngine-VXGI-4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 /OUT:"D:\Job\DR\Plugins\CGAL_Plugin\Binaries\Win64\UE4Editor-CGAL-Win64-DebugGame.dll"
 /IMPLIB:"D:\Job\DR\Plugins\CGAL_Plugin\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-CGAL-Win64-DebugGame.suppressed.lib"
