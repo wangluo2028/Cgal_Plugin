@@ -1,8 +1,0 @@
-{
-	"Changelist" : 0,
-	"BuildId" : "38718a19-d092-4fee-bc2d-5f906831833c",
-	"Modules" : 
-	{
-		"CGAL" : "UE4Editor-CGAL.dll"
-	}
-}
