@@ -17,6 +17,6 @@ Installation Instructions:</br>
 <i>Tutorial for setup your project with the plugin coming soon</i>
 
 C4503 warning as error:
-WindowsPlatformCompilerSetup.h
+WindowsPlatformCompilerSetup.h</b></br></br>
 source code here:
 https://github.com/armabon/UE4_CGAL
